@@ -2,7 +2,7 @@
 all: tailwindcss eleventy
 
 tailwindcss:
-	npx tailwindcss -i style.css -o style.out.css --watch
+	npx tailwindcss -i ./src/styles/style.css -o ./src/styles/style.out.css --watch
 
 eleventy:
-	npx @11ty/eleventy --serve
+	npx @11ty/eleventy --input=./src --serve
