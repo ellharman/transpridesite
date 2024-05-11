@@ -4,9 +4,14 @@
 @tailwind utilities;
 
 html {
-    font-family: Verdana, Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Trebuchet MS, Verdana, Segoe UI, Tahoma, Geneva, Verdana, sans-serif;
+    overflow-y: scroll;
 }
 
 body {
-    height: 100vh;
+    height: 100%;
+}
+
+.menu-vertical {
+    z-index: 10000;
 }
