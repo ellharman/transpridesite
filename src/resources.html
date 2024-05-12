@@ -1,11 +1,27 @@
 <!doctype html>
-<html>
 
 <head>
     <link href="{{ '/style.css' | url }}" rel="stylesheet" />
 </head>
-<div class="h-full w-full justify-center">
-    {% include 'nav.html' %}
+<html class="min-h-full" data-theme="dark">
+{% include 'nav.html' %}
+<div class="h-[90vh] w-full justify-center flex flex-col">
+    <div class="h-full lg:mx-auto mx-16 flex flex-col w-auto justify-center">
+        <ul class="space-y-12 lg:flex lg:flex-col items-center">
+            <li>
+                <a class="btn btn-primary lg:w-80 h-auto w-full lg:text-2xl text-5xl lg:py-4 py-12 flex-col"
+                    href="https://docs.google.com/document/d/1oBkzMZIJHL_0NvjLbY3AhNNhEab0qDvX1zDoLLmACLE/edit">Supporting Palestine</a>
+            </li>
+            <li>
+                <a class="btn btn-primary lg:w-80 h-auto w-full lg:text-2xl text-5xl lg:py-4 py-12 flex-col"
+                    href="https://www.crowdfunder.co.uk/p/free-sarah-jane-baker">Sarah Jane Baker's Crowdfunder</a>
+            </li>
+            <li>
+                <a class="btn btn-primary lg:w-80 h-auto w-full lg:text-2xl text-5xl lg:py-4 py-12 flex-col"
+                    href="https://docs.google.com/document/d/1oBkzMZIJHL_0NvjLbY3AhNNhEab0qDvX1zDoLLmACLE/edit">Making activism accessible</a>
+            </li>
+        </ul>
+    </div>
 </div>
 
 </html>
