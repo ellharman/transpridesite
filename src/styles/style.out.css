@@ -1623,16 +1623,8 @@ html {
   flex-grow: 1;
 }
 
-.grid-flow-row {
-  grid-auto-flow: row;
-}
-
 .grid-cols-2 {
   grid-template-columns: repeat(2, minmax(0, 1fr));
-}
-
-.grid-rows-2 {
-  grid-template-rows: repeat(2, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -1651,10 +1643,6 @@ html {
   justify-content: flex-start;
 }
 
-.justify-end {
-  justify-content: flex-end;
-}
-
 .justify-center {
   justify-content: center;
 }
@@ -1663,24 +1651,8 @@ html {
   justify-content: space-between;
 }
 
-.justify-around {
-  justify-content: space-around;
-}
-
-.justify-evenly {
-  justify-content: space-evenly;
-}
-
-.justify-stretch {
-  justify-content: stretch;
-}
-
 .justify-items-start {
   justify-items: start;
-}
-
-.justify-items-center {
-  justify-items: center;
 }
 
 .gap-10 {
@@ -1701,16 +1673,6 @@ html {
   --tw-space-y-reverse: 0;
   margin-top: calc(3rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(3rem * var(--tw-space-y-reverse));
-}
-
-.space-x-4 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-x-reverse: 0;
-  margin-right: calc(1rem * var(--tw-space-x-reverse));
-  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
-}
-
-.justify-self-end {
-  justify-self: end;
 }
 
 .rounded-3xl {
@@ -1744,44 +1706,20 @@ html {
   padding-bottom: 5rem;
 }
 
-.pt-20 {
-  padding-top: 5rem;
-}
-
-.pl-4 {
-  padding-left: 1rem;
-}
-
-.pl-8 {
-  padding-left: 2rem;
-}
-
-.pl-10 {
-  padding-left: 2.5rem;
-}
-
-.pl-32 {
-  padding-left: 8rem;
-}
-
 .pl-52 {
   padding-left: 13rem;
+}
+
+.pt-20 {
+  padding-top: 5rem;
 }
 
 .text-center {
   text-align: center;
 }
 
-.text-right {
-  text-align: right;
-}
-
 .align-middle {
   vertical-align: middle;
-}
-
-.align-bottom {
-  vertical-align: bottom;
 }
 
 .text-5xl {
@@ -1802,11 +1740,6 @@ html {
 .text-8xl {
   font-size: 6rem;
   line-height: 1;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
 }
 
 .leading-snug {
@@ -1953,32 +1886,12 @@ body {
     padding-bottom: 1rem;
   }
 
-  .lg\:pt-8 {
-    padding-top: 2rem;
-  }
-
   .lg\:pl-0 {
     padding-left: 0px;
   }
 
-  .lg\:pl-10 {
-    padding-left: 2.5rem;
-  }
-
-  .lg\:pl-2 {
-    padding-left: 0.5rem;
-  }
-
-  .lg\:pl-4 {
-    padding-left: 1rem;
-  }
-
-  .lg\:pl-14 {
-    padding-left: 3.5rem;
-  }
-
-  .lg\:pl-12 {
-    padding-left: 3rem;
+  .lg\:pt-8 {
+    padding-top: 2rem;
   }
 
   .lg\:text-2xl {
@@ -1999,10 +1912,5 @@ body {
   .lg\:text-5xl {
     font-size: 3rem;
     line-height: 1;
-  }
-
-  .lg\:text-3xl {
-    font-size: 1.875rem;
-    line-height: 2.25rem;
   }
 }

@@ -1,30 +1,32 @@
 <!doctype html>
 
 <head>
-    <link href="{{ './style.css' | url }}" rel="stylesheet" />
+    <link href="{{ '/style.css' | url }}" rel="stylesheet" />
 </head>
-<html class="min-h-full" data-theme="dark">
+<html lang="en" class="min-h-full" data-theme="dark">
+<title>London Trans Pride 2024</title>
 
 <div class="h-full min-w-full">
     {% include 'nav.html' %}
     <div class="lg:mx-0 lg:pt-8 pt-20 mx-16 flex flex-col relative h-auto w-auto items-center justify-start">
-        <img alt="London Trans Pride logo" src="./img/ltp_edit_3.png" class="lg:w-1/3 aspect-[40/30]"></img>
+        <header class="lg:w-1/3"><img class="aspect-[40/30]" src="./img/ltp_edit_3.png" alt="London Trans Pride logo">
+        </header>
         <main class="lg:my-6 my-16 text-center flex flex-col lg:gap-4 gap-10">
             <h1 class="text-7xl lg:text-4xl">LONDON TRANS⁺ <br>PRIDE 2024</h1>
             <h2 class="text-5xl lg:text-2xl leading-snug">1PM SATURDAY 27th JULY <br>@ TRAFALGAR SQUARE</h2>
             <h2 class="text-5xl lg:text-2xl">More info coming soon</h2>
-        </main>
-        <ul class="flex flex-row space-x-8">
-            <li>
-                <a class="btn btn-primary lg:w-auto w-full lg:text-2xl text-5xl lg:py-4 py-12 flex-col"
-                    href="https://www.instagram.com/londontranspride/">Instagram</a>
-            </li>
-            <li>
-                <a class="btn btn-primary lg:w-auto w-full lg:text-2xl text-5xl lg:py-4 py-12 flex-col"
-                    href="https://www.gofundme.com/f/london-trans-pride-2024?qid=7986c1164db75c3d8770d20bf4d8d419">Donations</a>
-            </li>
-        </ul>
 
+            <ul class="flex flex-row space-x-8">
+                <li>
+                    <a class="btn btn-primary lg:w-auto w-full lg:text-2xl text-5xl lg:py-4 py-12 flex-col"
+                        href="https://www.instagram.com/londontranspride/">Instagram</a>
+                </li>
+                <li>
+                    <a class="btn btn-primary lg:w-auto w-full lg:text-2xl text-5xl lg:py-4 py-12 flex-col"
+                        href="https://www.gofundme.com/f/london-trans-pride-2024?qid=7986c1164db75c3d8770d20bf4d8d419">Donations</a>
+                </li>
+            </ul>
+        </main>
     </div>
 </div>
 
