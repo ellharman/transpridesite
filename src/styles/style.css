@@ -15,3 +15,13 @@ body {
 .menu-vertical {
     z-index: 10000;
 }
+
+.btn-nav-menu {
+    background-color: unset;
+    border: unset;
+    font-weight: unset;
+}
+
+nav .tab {
+    top: 0.06rem;
+}
