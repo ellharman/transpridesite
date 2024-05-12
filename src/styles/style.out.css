@@ -1856,6 +1856,10 @@ input.tab:checked + .tab-content,
   aspect-ratio: 40/30;
 }
 
+.h-10 {
+  height: 2.5rem;
+}
+
 .h-24 {
   height: 6rem;
 }
@@ -1874,14 +1878,6 @@ input.tab:checked + .tab-content,
 
 .h-full {
   height: 100%;
-}
-
-.h-10 {
-  height: 2.5rem;
-}
-
-.h-1\/2 {
-  height: 50%;
 }
 
 .min-h-44 {
@@ -2003,8 +1999,9 @@ input.tab:checked + .tab-content,
   padding: 1.5rem;
 }
 
-.p-12 {
-  padding: 3rem;
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .py-12 {
@@ -2022,29 +2019,12 @@ input.tab:checked + .tab-content,
   padding-bottom: 2.25rem;
 }
 
-.px-12 {
-  padding-left: 3rem;
-  padding-right: 3rem;
-}
-
 .pl-52 {
   padding-left: 13rem;
 }
 
 .pt-20 {
   padding-top: 5rem;
-}
-
-.pb-12 {
-  padding-bottom: 3rem;
-}
-
-.pb-5 {
-  padding-bottom: 1.25rem;
-}
-
-.pt-12 {
-  padding-top: 3rem;
 }
 
 .text-center {
