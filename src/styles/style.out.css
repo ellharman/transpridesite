@@ -2476,6 +2476,14 @@ nav .tab {
     box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
   }
 
+  .lg\:visible {
+    visibility: visible;
+  }
+
+  .lg\:invisible {
+    visibility: hidden;
+  }
+
   .lg\:mx-0 {
     margin-left: 0px;
     margin-right: 0px;
@@ -2494,6 +2502,10 @@ nav .tab {
   .lg\:my-6 {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
+  }
+
+  .lg\:block {
+    display: block;
   }
 
   .lg\:flex {
@@ -2522,6 +2534,34 @@ nav .tab {
 
   .lg\:w-auto {
     width: auto;
+  }
+
+  .lg\:w-full {
+    width: 100%;
+  }
+
+  .lg\:w-1 {
+    width: 0.25rem;
+  }
+
+  .lg\:min-w-full {
+    min-width: 100%;
+  }
+
+  .lg\:grow-0 {
+    flex-grow: 0;
+  }
+
+  .lg\:basis-1 {
+    flex-basis: 0.25rem;
+  }
+
+  .lg\:basis-0 {
+    flex-basis: 0px;
+  }
+
+  .lg\:basis-full {
+    flex-basis: 100%;
   }
 
   .lg\:grid-cols-1 {
