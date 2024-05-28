@@ -1,10 +1,15 @@
-<nav class="navbar flex lg:min-h-12 min-h-44 z-50 bg-primary p-0 min-w-full lg:justify-center justify-between lg:items-end">
-    <h1 class="lg:hidden lg:aria-hidden text-6xl text-base-100 ml-12"><b>LTP</b></h1>
-    <div role="tablist" class="tabs tabs-lifted lg:space-x-4 px-12">
+<nav
+    class="navbar flex lg:min-h-12 min-h-44 z-50 bg-primary p-0 px-4 min-w-full lg:justify-center justify-around lg:items-end">
+    <a class="btn btn-active bg-base-100 grow basis-0 flex-col px-2 lg:w-auto lg:text-2xl text-5xl py-10 lg:py-4"
+        href="https://www.gofundme.com/f/london-trans-pride-2024">Donate</a>
+    <h1 class="lg:hidden lg:aria-hidden grow basis-0 text-6xl text-base-100 justify-center"><b>LT+P</b></h1>
+    <div role="tablist" class="hidden w-0 tabs tabs-lifted lg:space-x-4 px-12">
         <a role="tab" id="home" href="/"
             class="tab hidden lg:inline-flex btn-ghost lg:text-2xl text-5xl h-10 text-neutral">Home</a>
         <a role="tab" id="about" href="/about"
             class="tab hidden lg:inline-flex btn-ghost lg:text-2xl text-5xl h-10 text-neutral">About</a>
+        <a role="tab" id="mission" href="/mission"
+            class="tab hidden lg:inline-flex btn-ghost lg:text-2xl text-5xl h-10 text-neutral">Mission</a>
         <a role="tab" id="faq" href="/faq"
             class="tab hidden lg:inline-flex btn-ghost lg:text-2xl text-5xl h-10 text-neutral">FAQ</a>
         <a role="tab" id="stewarding" href="/stewarding"
@@ -14,18 +19,20 @@
         <a role="tab" id="contact" href="/contact"
             class="tab hidden lg:inline-flex btn-ghost lg:text-2xl text-5xl h-10 text-neutral">Contact</a>
     </div>
-    <div role="select" class="lg:aria-hidden lg:hidden dropdown dropdown-end">
-        <div tabindex="0" role="button" class="btn btn-ghost flex align-middle h-auto">
+    <div role="select" class="lg:aria-hidden lg:hidden grow basis-0 dropdown dropdown-end">
+        <div tabindex="0" role="button" class="btn btn-ghost flex justify-end h-auto">
             <div class="w-24 h-24">
                 <img alt="3 horizontal lines for a menu button" src="/img/burger.svg" />
             </div>
         </div>
-        <ul tabindex="0"
+        <ul tabindex="0" id="navburgerlist"
             class="text-center divide-x divide-solid menu-vertical menu-lg gap-12 py-9 lg:menu-horizontal bg-primary text-base-100 rounded-box dropdown-content">
             <hr>
             <li><a href="/" class="btn btn-nav-menu text-neutral text-7xl">Home</a></li>
             <hr>
             <li><a href="/about" class="btn btn-nav-menu text-neutral text-7xl">About</a></li>
+            <hr>
+            <li><a href="/mission" class="btn btn-nav-menu text-neutral text-7xl">About</a></li>
             <hr>
             <li><a href="/faq" class="btn btn-nav-menu text-neutral text-7xl">FAQ</a></li>
             <hr>

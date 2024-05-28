@@ -25,3 +25,7 @@ body {
 nav .tab {
     top: 0.06rem;
 }
+
+#navburgerlist {
+    right: -1rem
+}
