@@ -1,0 +1,82 @@
+                <li class="flex flex-col gap-6">
+                    <h2 class="text-7xl lg:text-4xl">
+                        Maps
+                    </h2>
+                    <ul>
+                        <li class="lg:my-0 my-12">
+                            <h3 class="text-6xl lg:text-4xl lg:mb-4">
+                                Meeting point
+                            </h3>
+                            <div class="w-auto flex justify-center">
+                                <img class="rounded-3xl mb-4 w-2/3" src="../img/map1.png"
+                                    alt="This map shows the meeting point for London Trans+ Pride 2024. The map is in black and white, with yellow highlighting important stops and toilet locations. The accessibility meeting point for the start of the march is marked with a yellow flag and is located on the south-west corner of Trafalgar Square, between Nelson's Column and the Fountain of Trafalgar. The march will assemble throughout Trafalgar Square. The map shows the direction of the march with yellow dots, heading west from Trafalgar Square, down Cockspur St. The map also marks toilet locations 1 through 5 with larger numbered yellow circles, with numbers corresponding to the toilet list at the bottom of this page.">
+                            </div>
+                            <p class="lg:text-2xl text-5xl leading-snug">
+                                Gather at Trafalgar Sq from 1pm on Saturday 27th of July! The accessibility meeting
+                                point is in the southwest corner of Trafalgar Square.
+                            </p>
+                        </li>
+                        <li class="my-12">
+                            <h3 class="text-6xl lg:text-4xl mb-4">
+                                Route
+                            </h3>
+                            <div class="w-auto flex justify-center">
+                                <img class="rounded-3xl mb-4 w-2/3" src="../img/map2.png"
+                                    alt="This map shows the full route of the march. The map is in black and white, with yellow dots highlighting the route, stop-off points, and toilet locations. There are three yellow flags marking the start of the march at Trafalgar Square and stop-off points, and a yellow star marking the end of the march at Wellington Arch. From Trafalgar Square, the march will lead down Cockspur St, turning slightly left at Pall Mall at the intersection of Cockspur St and Haymarket. It will then turn right on Waterloo Place and continue up Regent Street Saint James' to the first stop off point at the Shaftesbury Memorial Fountain on Piccadilly Circus. This stop off point is outdoor, stepped and adjacent to an underground station, and there will be improvised seating available. The march will then turn left on Piccadilly and continue straight to the second stop off point at the Statue of Diana at Green Park. This stop-off point is outdoors in a green space, and there are benches and improvised seating space is available. It is also adjacent to a small park café and across the street from a Tesco and an M&S. Next, the march will continue on Piccadilly, all the way to Wellington Arch. The map also shows larger numbered yellow circles, highlighting the locations of toilets 6 through 9, with numbers corresponding to the toilet list at the bottom of this page.">
+                            </div>
+                            <p class="lg:text-2xl text-5xl leading-snug">
+                                Start: Trafalgar Square
+                                <br>
+                                <br>
+                                Stop-off Point 1: Shaftesbury Memorial Fountain @ Piccadilly Circus
+                                <br>
+                                Outdoor, stepped, improvised seating available, adjacent to underground station.
+                                <br>
+                                <br>
+                                Stop-off Point 2: Statue of Diana @ Green Park
+                                <br>
+                                Outdoor, green space, benches and improvised sitting space available, adjacent to small
+                                park cafe, across the street from a Tesco and and M&S.
+                                <br>
+                                <br>
+                                Speeches and end of march: Wellington Arch
+                            </p>
+                        </li>
+                        <li class="my-12">
+                            <h3 class="text-6xl lg:text-4xl mb-4">
+                                Wellington Arch
+                            </h3>
+                            <div class="w-auto flex justify-center">
+                                <img class="rounded-3xl mb-4 w-2/3" src="../img/map3.png"
+                                    alt="This map shows the final point of the march at Wellington Arch green. The map is in colour and shows an aerial view of Wellington Arch, with yellow, slightly transparent shapes highlighting important areas and yellow flags marking points of importance. The march will be arriving at the south-east corner of the square. The loud area is located in the corner, where Piccadilly ends. Right above it, towards the arch, is the main seating area. In front of that, towards the arch, is the access slope, for people who use BSL and/or have access needs but are happy to sit on a grassy slope. In front of that is the access area, which is located right in front of the arch. There is a yellow flag on the right side of this area, marking the location of the stage. The BSL interpreters will be stationed on the left side of the stage. Behind the arch, at the intersection of Grosvenor Place and Grosvenor Crescent, is the chill and family friendly area. To the right, in front of the Royal Artillery Memorial, a yellow flag marks accessible toilets and the first aid station, as well as an ambulance, and service dog refreshment area. On the east side of the square, in front of the Statue of the Duke of Wellington, a yellow flag marks the hydration station and the meeting point for people who have been separated.">
+                            </div>
+                            <ul class="list-disc ml-10">
+                                <li class="lg:text-2xl text-5xl leading-snug my-6">
+                                    Stage (Wellington Arch) with BSL interpreters on the left side
+                                </li>
+                                <li class="lg:text-2xl text-5xl leading-snug my-6">
+                                    Meeting point and hydration station (Statue of Duke of Wellington) for people who
+                                    have been separated
+                                </li>
+                                <li class="lg:text-2xl text-5xl leading-snug my-6">
+                                    Accessible toilets and first aid (Royal Artillery Memorial), and ambulance and guide
+                                    dog refreshment area
+                                </li>
+                                <li class="lg:text-2xl text-5xl leading-snug my-6">
+                                    Chill and family friendly area for hanging out, not listening to speeches (no
+                                    amplification)
+                                </li>
+                                <li class="lg:text-2xl text-5xl leading-snug my-6">
+                                    Loud area, for listening to speeches and chatting/party vibe
+                                </li>
+                                <li class="lg:text-2xl text-5xl leading-snug my-6">
+                                    Access area, for people who use wheelchairs/mobility aids
+                                </li>
+                                <li class="lg:text-2xl text-5xl leading-snug my-6">
+                                    Access slope, for people who use BSL and/or have access needs but are happy to sit
+                                    on grassy slope
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
