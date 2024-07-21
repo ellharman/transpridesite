@@ -29,3 +29,7 @@ nav .tab {
 #navburgerlist {
     right: -4rem
 }
+
+.text-primary {
+    text-decoration: underline;
+}
