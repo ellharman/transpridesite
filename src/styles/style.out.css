@@ -2628,6 +2628,9 @@ body {
 
 nav .tab {
   top: 0.06rem;
+  #ltp {
+    flex-shrink: 0;
+  }
 }
 
 #navburgerlist {
