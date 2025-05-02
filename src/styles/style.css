@@ -26,6 +26,10 @@ nav .tab {
     top: 0.06rem;
 }
 
+#ltpnavbutton {
+    flex-shrink: 0;
+}
+
 #navburgerlist {
     right: -4rem
 }
