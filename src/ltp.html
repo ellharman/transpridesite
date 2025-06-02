@@ -1,11 +1,13 @@
 {% include 'frontmatter.html' %}
 <html lang="en" class="min-h-full" data-theme="dark">
+<body>
+<a id="main-content" tabindex="-1"></a>
 <main class="h-full w-full justify-center">
     {% include 'nav.html' %}
-    <div class="lg:mx-96 py-20 mx-16 flex flex-col relative h-auto w-auto items-center">
-        <article class="flex flex-col lg:gap-8 gap-12">
-            <h1 class="lg:text-7xl text-8xl text-center">LT+P 2025</h1>
-            <ul class="flex flex-col gap-10">
+    <div class="lg:mx-96 py-10 sm:py-20 mx-2 sm:mx-8 md:mx-16 flex flex-col relative h-auto w-auto items-center" id="main-content" tabindex="-1">
+        <article class="flex flex-col lg:gap-8 gap-6 sm:gap-12">
+            <h1 class="lg:text-7xl text-5xl sm:text-8xl text-center">LT+P 2025</h1>
+            <ul class="flex flex-col gap-6 sm:gap-10">
                 <li class="flex flex-col gap-6">
                     <h2 class="text-7xl lg:text-4xl">
                         When + where?
@@ -248,11 +250,11 @@
                         </li>
                         <li class="">
                             <ul class="lg:text-2xl text-5xl leading-snug list-disc ml-6 space-y-10">
-                                <li class="my-4">
+                                <li class="my-4 list-none">
                                     <p class="lg:text-2xl text-5xl leading-snug">Stop-off Point 1: Regent St @
                                         Piccadilly Circus</p>
                                 </li>
-                                <li class="my-4">
+                                <li class="my-4 list-none">
                                     <p class="lg:text-2xl text-5xl leading-snug">We'll be pausing about halfway down
                                         Regent's Street, roughly between the Burberry and Zara stores. Outdoor, stepped,
                                         improvised seating available, adjacent to underground station.</p>
@@ -261,13 +263,13 @@
                         </li>
                         <li class="">
                             <ul class="lg:text-2xl text-5xl leading-snug list-disc ml-6 space-y-10">
-                                <li class="my-4">
+                                <li class="my-4 list-none">
                                     <p class="lg:text-2xl text-5xl leading-snug">
                                         Stop-off Point 2: Statue of Diana @
                                         Green Park
                                     </p>
                                 </li>
-                                <li class="my-4">
+                                <li class="my-4 list-none">
                                     <p class="lg:text-2xl text-5xl leading-snug">
                                         Outdoor, green space, benches and
                                         improvised sitting space available, adjacent to small park cafe, across the
@@ -302,39 +304,44 @@
                     <p class="lg:text-2xl text-5xl leading-snug">The march will be a loud and busy environment, you are welcome to break off for rest at any point. The following areas have been identified as good chill out areas along the route.</p>
                     <ul class="lg:text-2xl text-5xl leading-snug list-disc ml-6 space-y-10">
                         
-                        <li class="my-4">Golden Square
-                            <ul class="lg:text-2xl text-5xl leading-snug list-disc ml-6 space-y-10">
+                        <li class="my-4 list-none">
+                            Golden Square
+                            <ul class="lg:text-2xl text-5xl leading-snug list-disc ml-6 space-y-10 mt-4">
                                 <li>Most accessible route is to break off from the march just before the bend on Regents Street onto Glasshouse Street. Follow the route to Brewer Street. Turn left at lower John Street to reach the north side of the square where the step free entrance is. Step free entrance is very steep and cobbled. The cobble will be covered with rubber mats. Stewards will be along the way and at the entrance to assist if needed.</li>
                                 <li>Outdoor.</li>
                             </ul>
                         </li>
+                        <hr>
                         
-                        <li class="my-4">The National Gallery Cafe 
+                        <li class="my-4 list-none">The National Gallery Cafe 
                             <ul class="lg:text-2xl text-5xl leading-snug list-disc ml-6 space-y-10 mt-4">
                                 <li>Please note that an event will be going on outside of the National Gallery at Trafalgar Square.</li>
                                 <li>Open to the public, and have accessible toilets.</li>
                                 <li>Indoor.</li>
                             </ul>
                         </li>
+                        <hr>
 
-                            <li class="my-4">Cafe in the Crypt
+                            <li class="my-4 list-none">Cafe in the Crypt
                                 <ul class="lg:text-2xl text-5xl leading-snug list-disc ml-6 space-y-10 mt-4">
                                     <li>Cafe and contains an accessible toilet accessed via a lift.</li>
                                     <li>Indoor.</li>
                                 </ul>
                             </li>
+                            <hr>
 
-                            <li class="my-4">St James Park
+                            <li class="my-4 list-none">St James Park
                                 <ul class="lg:text-2xl text-5xl leading-snug list-disc ml-6 space-y-10 mt-4">
                                     <li>Near parliament square.</li>
                                     <li>Outdoor.</li>
                                 </ul>
                             </li>
+                            <hr>
                     </ul>
 
                         
                     <h3 class="text-6xl lg:text-3xl">
-                        Map of <a href=" https://maps.app.goo.gl/BEyG4KHnZ2jVJT586">accessible toilets</a> 
+                        Map of <a class="text-primary" href="https://maps.app.goo.gl/BEyG4KHnZ2jVJT586">accessible toilets</a> 
 </h3>
                     <h4 class="text-5xl lg:text-2xl">
                         Near Langham Place, meeting point
@@ -395,7 +402,7 @@
                         PLEASE NOTE!
                     </h4>
                     <p class="lg:text-2xl text-5xl leading-snug">
-                        Parliament SquareWellington Arch is much further away from toilet facilities than the start point and main body of the march, and there will only be threetwo toilets on site.
+                        Parliament Square is much further away from toilet facilities than the start point and main body of the march, and there will only be threetwo toilets on site.
 As these accessible facilities will be prioritised for disabled people and others who most essentially need them, we highly encourage you to plan scheduled bathroom breaks and familiarise yourself with the route to your closest facilities!
 If you have a Radar Key, do bring it with you, just in case! A few of our access stewards will be carrying Radar Keys. 
                     </p>
@@ -415,4 +422,5 @@ If you have a Radar Key, do bring it with you, just in case! A few of our access
 </main>
 {% include 'footer.html' %}
 
+</body>
 </html>
