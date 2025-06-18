@@ -2164,6 +2164,10 @@ input.tab:checked + .tab-content,
   margin-bottom: 3rem;
 }
 
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
 .ml-6 {
   margin-left: 1.5rem;
 }
@@ -2394,6 +2398,11 @@ input.tab:checked + .tab-content,
   padding-bottom: 3rem;
 }
 
+.py-40 {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -2444,6 +2453,10 @@ input.tab:checked + .tab-content,
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .leading-snug {
